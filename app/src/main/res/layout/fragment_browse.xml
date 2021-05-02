@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.BrowseFragment"
+    android:background="@drawable/background7"
+    android:orientation="vertical"
+    android:paddingBottom="70dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="280dp"
+            android:layout_height="80dp"
+            android:text="View Heat Map"
+            android:id="@+id/btn_browse"
+            android:textSize="25sp"
+            android:background="@drawable/buttondark"
+            android:textColor="#fff"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/covnet_heat_map"
+            android:textColor="#fff"
+            android:id="@+id/browse_text"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+
+        </RelativeLayout>
+
+
+</LinearLayout>

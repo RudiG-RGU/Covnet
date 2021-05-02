@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".Fragments.HomeFragment">
+
+
+    <ImageButton
+        android:id="@+id/homeBluebtn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@drawable/tileblue"
+        android:scaleType="fitXY"
+        android:background="@null" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="55dp"
+        android:text="Recently Tested Positive?"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="55dp"
+        android:text="Add your positive result in our database anonymously to protect other users here."
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+
+    <ImageButton
+        android:id="@+id/homeYellowbtn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="412dp"
+        app:srcCompat="@drawable/tileyellow"
+        android:scaleType="fitXY"
+        android:background="@null" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="55dp"
+        android:text="COVID-19 Symptoms"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="55dp"
+        android:text="Keep up to date with the known symptoms of the COVID-19 virus."
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+
+
+
+    <ImageButton
+        android:id="@+id/homeRedbtn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="574dp"
+        app:srcCompat="@drawable/tilered"
+        android:scaleType="fitXY"
+        android:background="@null" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="55dp"
+        android:text="Restrictions in the UK"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="55dp"
+        android:text="COVID-19 restrictions for the United Kingdom."
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+
+
+</RelativeLayout>

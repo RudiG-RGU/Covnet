@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.HomeFragment"
+    android:paddingBottom="60dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="28dp"
+        android:text="@string/application_title"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="If you have recently tested positive for COVID-19 and support the Covnet network we would appreciate if you let us know."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#312255"
+        tools:ignore="RtlCompat" />
+
+
+    <ImageButton
+        android:id="@+id/isolation"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/tilegreen"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:elevation="6dp"
+        android:outlineProvider="none"/>
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="60dp"
+        android:text="Need to Self-isolate?"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="60dp"
+        android:text="If you have tested positive and need to self-isolate you can get information here."
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="end"
+        android:textColor="#312255" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        android:text="All positive results collected by Covnet are stored anonymously and are used for data visualisations for other users to keep each other safe."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#312255"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="80dp"
+        android:text="I have tested positive"
+        android:id="@+id/btn_apply"
+        android:textSize="25sp"
+        android:onClick="onClick"
+        android:background="@drawable/buttondark"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:textColor="#fff"
+        android:elevation="5dp"
+        android:outlineProvider="none"/>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="login">login</string>
+    <string name="tracing_status">Tracing Status: <b>Active</b></string>
+    <string name="tracing_status_off">Tracing Status: <b>Inactive</b></string>
+    <string name="Active">Active</string>
+    <string name="username" />
+    <string name="Username">Username</string>
+    <string name="register">Register</string>
+    <string name="user_agreement_and_terms_of_service"><u>User Agreement and Terms of Service.</u></string>
+    <string name="covnet_heat_map">Covnet Heat Map offers insight into the known cases in your local area. The Heat Map shows the known case to Covnet.</string>
+    <string name="local_cases"><u>Local Cases: 2</u></string>
+    <string name="high_temperature">• A <b>high temperature</b> – this means you feel hot to touch on your chest or back (you do not need to measure your temperature)</string>
+    <string name="new_continuous_cough">• A <b>new, continuous cough</b> – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual)</string>
+    <string name="cannot_smell_or_taste">• A <b>loss or change to your sense of smell or taste</b> – this means you\'ve noticed you cannot smell or taste anything, or things smell or taste different to normal</string>
+    <string name="self_isolation_info1">• Self-isolation is when you do not leave your home because you have or might have coronavirus (COVID-19)</string>
+    <string name="self_isolation_info2">• You have any symptoms of coronavirus (a high temperature, a new, continuous cough or a loss or change to your sense of smell or taste)</string>
+    <string name="self_isolation_info3">• You have tested positive for coronavirus, this means you have coronavirus</string>
+    <string name="self_isolation_info4">• Someone you live with has symptoms or tested positive</string>
+    <string name="self_isolation_info5">• Someone in your support bubble has symptoms and you’ve been in close contact with them since their symptoms started or during the 48 hours before they started</string>
+    <string name="self_isolation_info6">• You have been told you have been in contact with someone who tested positive</string>
+    <string name="application_title">Recently Tested Positive?</string>
+    <string name="privacy_policy">Before you continue using our application, we advise you to read our privacy policy [<a href="https://rudi-greig-7085c.web.app/covnet-privacy-policy.html">Privacy Policy</a>] regarding our user data collection. It will help you better understand our practices.</string>
+</resources>

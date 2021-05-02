@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textSize="28dp"
+                android:text="Restrictions in the UK"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:text="(All information has been sourced from the UK Government and the BBC)"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:text="Alert Levels in UK:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="24dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="#990000"
+                android:layout_centerHorizontal="true"
+                android:text="Level five - a 'material risk of healthcare services being overwhelmed'"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:padding="10dp"
+                android:background="#d56906"
+                android:layout_centerHorizontal="true"
+                android:text="Level four - a high or rising level of transmission"
+                android:textSize="20dp"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:background="#f9ab17"
+                android:padding="10dp"
+                android:text="Level three - the virus is in general circulation"
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:padding="10dp"
+                android:background="#06bd8e"
+                android:layout_centerHorizontal="true"
+                android:text="Level two - the number of cases and transmission are low"
+                android:textSize="20dp"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:padding="10dp"
+                android:background="#578300"
+                android:layout_centerHorizontal="true"
+                android:text="Level one - COVID-19 is no longer present in the UK"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:text="Current Level (Aberdeen):"
+                android:textSize="24dp"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:padding="10dp"
+                android:background="#d56906"
+                android:layout_centerHorizontal="true"
+                android:text="Level four - a high or rising level of transmission"
+                android:textSize="20dp"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Level 4 Restrictions:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="24dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Home Restrictions:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="22dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="18dp"
+                android:text="	• People should not be meeting in each others houses."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="18dp"
+                android:text="	• However, six adults from two separate households can meet in a public place. Children under 12 do not count towards that total."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Exceptions to the ban include another household providing care and support to a 'vulnerable person'."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• The extended household rule applies in level four. This allows people who live alone - or who are a single adult with children under 18 - being considered part of another household to reduce loneliness and isolation."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Where parents do not live in the same household, children can move between their parents' homes."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Education:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="22dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Schools, colleges and universities can remain open."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Early learning and childcare can continue to operate."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• However, informal childcare is only allowed for anyone employed in essential or permitted services."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Outdoor meetings:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="22dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Up to two households - totalling no more than six - can meet in a private garden or a public place like a park."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Children under 12 do not count toward that number and they also do not need to maintain social distancing."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Young people aged between 12 and 17 can meet up in groups of up to six outdoors. These groups are not subject to the two household limit but physical distancing is required."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• If you are meeting in someone's garden you can go inside if you need to use the toilet but should wipe down surfaces you touch with antibacterial wipes and use only freshly laundered or paper towels."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:text="Pubs, cafes &amp; holiday accommodation:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="22dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Restaurants, cafes, pubs and bars will be closed."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Takeaways can operate as normal with face coverings and physical distancing rules being followed."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Hotels and other accommodation providers can serve food up to 10pm to guests. Room service, including alcohol, is allowed."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• All holiday accommodation is closed to tourists. Hotels, B&amp;Bs and self-catering can remain open for essential customers - for example anyone who is staying for essential work purposes."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:text="Supermarkets, clothes shops &amp; markets:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="22dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Only essential retail can open providing they follow and have implemented Scottish government guidance to ensure the safety of customers and staff."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Click and collect, on-line services and outdoor retail, such as garden centres, outdoor markets and car lots, can also remain open."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:text="Hairdressers, barbers &amp; massage therapists:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="22dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Services which involve 'close contact' cannot operate."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• These include hairdressers; barbers; hair removal and massage therapies."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• They also include dress-fitting; tattoo and piercing and indoor portrait photography."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Sport, leisure &amp; entertainment:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="22dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Indoor sports facilities, including gyms, have to close."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• You are permitted to meet others outdoors for informal exercise or sport and outdoor gyms can remain open."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Outdoor non-contact sports are permitted for all age groups."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• All leisure and entertainment premises, including cinemas, must be closed."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Film and TV production can continue to take place."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• All public buildings such as libraries have to close, however, library click and collect services can still operate."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Places of worship:"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:textSize="22dp"
+                android:layout_gravity="end"
+                android:textColor="#312255"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Churches, mosques, temples and synagogues can remain open subject to two metre distancing and a maximum of 20 worshippers."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• Wedding ceremonies and civil partnerships, with a maximum of 20 people (including the couple) are allowed - providing the venue is big enough for 2m distancing. Face coverings must be worn except for the couple getting married and the person conducting the service."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:text="	• However, receptions cannot follow a ceremony. Funerals and wakes can take place with a maximum capacity of 20 guests."
+                android:textColor="#312255"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="80dp"
+        android:text="Home"
+        android:id="@+id/btn_home"
+        android:textSize="25sp"
+        android:onClick="onClick"
+        android:background="@drawable/buttondark"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:textColor="#fff"
+        android:elevation="5dp"
+        android:outlineProvider="none"/>
+
+</RelativeLayout>

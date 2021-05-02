@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.rgdd.Covnet.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="780dp"
+        android:layout_alignTop="@id/bottom_margin"
+        android:id="@+id/slide"
+        android:background="#c3c3c3"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="790dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/bottom_margin"
+        android:layout_alignParentBottom="true"
+        android:elevation="5dp"
+        android:outlineProvider="none">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@color/colorPrimary">
+    </ImageView>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="155dp"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle"
+            android:elevation="5dp"
+            android:outlineProvider="none"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/logowhite"
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/covnetpurple" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:textSize="16sp"
+            android:layout_marginTop="206dp"
+            android:textColor="#fff"
+            android:background="#00991f"
+            android:text="@string/tracing_status"
+            android:paddingLeft="5dp"
+            android:paddingStart="5dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/profile_image"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/username"
+                android:layout_marginLeft="25dp"
+                android:textColor="#fff"
+                android:layout_marginStart="25dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:tabIndicatorHeight="10dp"
+        android:background="#c3c3c3"
+        app:tabIndicatorColor="#312254"
+        android:layout_alignTop="@id/bottom_margin"
+        android:elevation="5dp"
+        android:outlineProvider="none"/>
+
+</RelativeLayout>
